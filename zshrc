@@ -3,6 +3,7 @@
 
 # Create Aliases
 alias ll='ls -lAFh'
+alias cat='bat'
 
 # Functions
 function mkcd () {
