@@ -17,6 +17,6 @@
      -
        command: ./setup/homebrew.zsh
        stdout: true
-       stderr": true
+       stderr: true
      - [git submodule update --init --recursive, Installing submodules]
 
