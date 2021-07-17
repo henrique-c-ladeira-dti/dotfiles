@@ -8,6 +8,7 @@
     ~/.zprofile:
     ~/.zshrc:
     ~/.gitconfig:
+    ~/.Brewfile:
 
 - create:
     - ~/dev
