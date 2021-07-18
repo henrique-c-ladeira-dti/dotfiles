@@ -20,6 +20,8 @@ cask "adoptopenjdk8"
 cask "alfred"
 # Tools for building Android applications
 cask "android-studio"
+# 3D creation suite
+cask "blender"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Graphical client for Git version control
