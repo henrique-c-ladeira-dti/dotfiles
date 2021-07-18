@@ -12,10 +12,15 @@
 
 - create:
     - ~/dev
+    - ~/.nvm
 
 - shell:
      -
        command: ./setup/homebrew.zsh
+       stdout: true
+       stderr: true
+     -
+       command: ./setup/nvm.zsh
        stdout: true
        stderr: true
      - [git submodule update --init --recursive, Installing submodules]

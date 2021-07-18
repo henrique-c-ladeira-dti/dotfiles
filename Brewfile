@@ -5,6 +5,7 @@ tap "homebrew/core"
 
 # Brews (Packages)
 brew "bat"
+brew "exa"
 brew "nvm"
 
 # Casks (applications)
