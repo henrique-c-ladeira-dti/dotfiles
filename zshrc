@@ -1,6 +1,7 @@
 # Set Variables
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
+export NULLCMD=bat
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
 # export PATH=$PATH:$ANDROID_HOME/emulator
