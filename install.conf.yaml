@@ -2,25 +2,25 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
     ~/.zprofile:
     ~/.zshrc:
     ~/.gitconfig:
     ~/.Brewfile:
+    ~/.config/bat:
+      create: true
+      path: config/bat
 
 - create:
     - ~/dev
 
 - shell:
-     -
-       command: ./setup/homebrew.zsh
-       stdout: true
-       stderr: true
-     -
-       command: ./setup/nvm.zsh
-       stdout: true
-       stderr: true
-     - [git submodule update --init --recursive, Installing submodules]
-
+    - command: ./setup/homebrew.zsh
+      stdout: true
+      stderr: true
+    - command: ./setup/nvm.zsh
+      stdout: true
+      stderr: true
+    - [git submodule update --init --recursive, Installing submodules]
