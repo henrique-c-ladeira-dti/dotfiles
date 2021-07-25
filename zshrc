@@ -18,10 +18,6 @@ function mkcd () {
 	mkdir -p "$@" && cd "$_"
 }
 
-function exists () {
-	command -v $1 > /dev/null 2>&1
-}
-
 function parse_git_branch () {
 	git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/[\1]/'
 }
