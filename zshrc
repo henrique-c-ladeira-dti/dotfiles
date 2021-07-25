@@ -12,6 +12,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 alias ls='exa'
 alias ll='exa -laFh --git'
 alias cat='bat'
+alias bbd='brew bundle dump --force --describe'
 
 # Functions
 function mkcd () {
