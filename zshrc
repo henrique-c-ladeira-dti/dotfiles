@@ -6,13 +6,19 @@ export N_PREFIX="$HOME/.n"
 export PREFIX="$N_PREFIX"
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
-export PATH="$PATH:/opt/homebrew/bin"
-export PATH="$PATH:$N_PREFIX/bin"
 
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
+# Set path array variable
+typeset -U path
+
+path=(
+	$path
+	"/opt/homebrew/bin"
+	"$N_PREFIX/bin"
+	"$ANDROID_HOME/emulator"
+	"$ANDROID_HOME/tools"
+	"$ANDROID_HOME/tools/bin"
+	"$ANDROID_HOME/platform-tools"
+)
 
 # Create Aliases
 alias ls='exa'
