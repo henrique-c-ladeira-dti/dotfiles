@@ -10,8 +10,8 @@ brew "cocoapods"
 brew "exa"
 # Mac App Store command-line interface
 brew "mas"
-# Platform built on V8 to build network applications
-brew "node"
+# Node version management
+brew "n"
 # Watch files and take action when they change
 brew "watchman"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
@@ -24,6 +24,8 @@ cask "android-studio"
 cask "blender"
 # Web browser focusing on privacy
 cask "brave-browser"
+# Desktop app for inspecting React JS and React Native projects
+cask "reactotron"
 # Graphical client for Git version control
 cask "sourcetree"
 # Open-source code editor
