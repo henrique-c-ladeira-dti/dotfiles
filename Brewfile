@@ -16,8 +16,6 @@ brew "n"
 brew "watchman"
 # AdoptOpenJDK OpenJDK (Java) Development Kit
 cask "adoptopenjdk8"
-# Application launcher and productivity software
-cask "alfred"
 # Tools for building Android applications
 cask "android-studio"
 # 3D creation suite
