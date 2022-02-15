@@ -26,8 +26,6 @@ cask "blender"
 cask "brave-browser"
 # Desktop app for inspecting React JS and React Native projects
 cask "reactotron"
-# Graphical client for Git version control
-cask "sourcetree"
 # Open-source code editor
 cask "visual-studio-code"
 
