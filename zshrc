@@ -23,9 +23,9 @@ typeset -U path
 
 path=(
 	$path
-	"/opt/homebrew/bin"
-	"/opt/homebrew/opt/nvm/nvm.sh"
-	"/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"
+	"$BREW_PREFIX/bin"
+	"$BREW_PREFIX/opt/nvm/nvm.sh"
+	"$BREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm"
 	"$ANDROID_HOME/emulator"
 	"$ANDROID_HOME/tools"
 	"$ANDROID_HOME/tools/bin"
