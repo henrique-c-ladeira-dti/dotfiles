@@ -1,8 +1,6 @@
 # .dotfiles
 - Type git in the terminal and install, if it isn`t already installed
   
-- Install XCode in App Store
-
 - Install homebrew (may require sudo password)
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -25,6 +23,19 @@ Dotbot install
 ~/.dotfiles/install
 ```
 
+## Post Setup
+
+- Install XCode in App Store
+
+- Install Node
+```
+nvm install 18
+```
+
+- Install Yarn
+```
+npm i -g yarn 
+```
 
 ## Acknowledgment
 
