@@ -3,6 +3,11 @@
   
 - Install XCode in App Store
 
+- Install homebrew (may require sudo password)
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
 - Proceed with Quick Setup below.
 
 Do not forget to change the git email and username in gitconfig file before installing.
