@@ -1,6 +1,6 @@
 [user]
-	email = henrique.ladeira@dtidigital.com.br
-	name = Henrique
+	email = dtiuser@dtidigital.com.br
+	name = DTI USER
 [alias]
 	s = !git status -s
 	c = !git add --all && git commit -m

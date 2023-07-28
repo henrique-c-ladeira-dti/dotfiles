@@ -1,16 +1,20 @@
-# .dotfiles-macOS
+# .dotfiles
+- Install git command line tools by typing git in terminal
 
-This is my personal dotfiles project.
-Feel free to copy and use the code as you wish.
-If you want to use it as is some tweaks might be necessary as there are hard coded string with personal info.
+- Install XCode in App Store
 
-Like it? 	&#11088; it.
+- Proceed with Quick Setup.
+
+Do not forget to change the git email and username in gitconfig file before installing.
 
 ## Quick Setup
 Clone repository
 ```
-git clone https://github.com/henrique-c-ladeira/dotfiles-macOS ~/.dotfiles
+git clone https://github.com/henrique-c-ladeira-dti/dotfiles ~/.dotfiles
 ```
+
+### *SET YOUR EMAIL AND USERNAME IN GITCONFIG FILE BEFORE INSTALLING!*
+
 Dotbot install
 ```
 ~/.dotfiles/install

@@ -4,6 +4,9 @@ export HOMEBREW_CASK_OPTS="--no-quarantine"
 export NULLCMD=bat
 export PREFIX="$N_PREFIX"
 
+# This is for rbenv only
+# export GEM_HOME=$HOME/.gem
+
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export NVM_DIR=$HOME/.nvm
 
@@ -25,8 +28,8 @@ path=(
 	"$ANDROID_HOME/tools"
 	"$ANDROID_HOME/tools/bin"
 	"$ANDROID_HOME/platform-tools"
+	"$GEM_HOME/bin"
 )
-
 
 # Create Aliases
 alias ls='exa'
@@ -44,6 +47,7 @@ function mkcd () {
 function parse_git_branch () {
 	git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/[\1]/'
 }
+
 # Enable substitution in the prompt.
 setopt prompt_subst
 
@@ -54,3 +58,5 @@ function mkcd () {
 	mkdir -p "$@" && cd "$_"
 }
 
+# This is also only for rbenv
+# eval "$(rbenv init - zsh)"
