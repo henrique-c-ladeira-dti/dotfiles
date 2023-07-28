@@ -1,9 +1,9 @@
 # .dotfiles
-- Install git command line tools by typing git in terminal
-
+- Type git in the terminal and install, if it isn`t already installed
+  
 - Install XCode in App Store
 
-- Proceed with Quick Setup.
+- Proceed with Quick Setup below.
 
 Do not forget to change the git email and username in gitconfig file before installing.
 
