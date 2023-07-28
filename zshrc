@@ -13,10 +13,10 @@ export NVM_DIR=$HOME/.nvm
 export LC_ALL=en_US.UTF-8 
 export LANG=en_US.UTF-8
 
-export BREW_PREFIX="$(which brew)/../.."
+export BREW_PREFIX="$(which brew)"
 
-[ -s "$BREW_PREFIX/opt/nvm/nvm.sh" ] && \. "$BREW_PREFIX/opt/nvm/nvm.sh" # This loads nvm
-[ -s "$BREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$BREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm"
+[ -s "$BREW_PREFIX/../../opt/nvm/nvm.sh" ] && \. "$BREW_PREFIX/../../opt/nvm/nvm.sh" # This loads nvm
+[ -s "$BREW_PREFIX/../../opt/nvm/etc/bash_completion.d/nvm" ] && \. "$BREW_PREFIX/../../opt/nvm/etc/bash_completion.d/nvm"
 
 # Set path array variable
 typeset -U path
