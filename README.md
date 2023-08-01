@@ -37,6 +37,14 @@ nvm install 18
 npm i -g yarn 
 ```
 
+- Setup rbenv
+```
+rbenv install 2.7.6
+gem install cocoapods 
+```
+
+When we install make sure that you are in the correct ruby version (2.7.6)
+
 ## Acknowledgment
 
 - Patrick McDonald [dotfiles.eieio.xyz](http://dotfiles.eieio.xyz)
