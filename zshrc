@@ -5,7 +5,7 @@ export NULLCMD=bat
 export PREFIX="$N_PREFIX"
 
 # This is for rbenv only
-# export GEM_HOME=$HOME/.gem
+export GEM_HOME=$HOME/.gem
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export NVM_DIR=$HOME/.nvm
@@ -61,4 +61,4 @@ function mkcd () {
 }
 
 # This is also only for rbenv
-# eval "$(rbenv init - zsh)"
+eval "$(rbenv init - zsh)"

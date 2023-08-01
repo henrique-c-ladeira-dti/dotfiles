@@ -14,7 +14,7 @@ brew "nmap"
 # Manage multiple Node.js versions
 brew "nvm"
 # Ruby version manager
-# brew "rbenv"
+brew "rbenv"
 # Watch files and take action when they change
 brew "watchman"
 # Tools for building Android applications
