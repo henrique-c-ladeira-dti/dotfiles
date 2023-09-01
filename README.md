@@ -42,6 +42,7 @@ npm i -g yarn
 - Setup rbenv
 ```
 rbenv install 2.7.6
+rbenv global 2.7.6
 gem install cocoapods 
 ```
 
