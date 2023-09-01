@@ -27,6 +27,8 @@ Dotbot install
 
 - Install XCode in App Store
 
+- Open a new terminal
+
 - Install Node
 ```
 nvm install 18
